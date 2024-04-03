@@ -1,0 +1,32 @@
+name: unit5B
+channels:
+    - conda-forge
+dependencies:
+    - arviz
+    - jupyterlab
+    - mkl-service
+    - nb_conda_kernels
+    - notebook=6.1.4
+    - numpy
+    - pandas
+    - pip
+    - plotnine
+    - pymc
+    - pytest
+    - python=3.9
+    - seaborn
+    - plotly
+    - pyyaml
+    - scikit-learn
+    - statsmodels
+    - pingouin
+    - tqdm
+    - pip:
+      - streamlit
+      - pymer4
+      - snowflake-connector-python[pandas]
+      - fast_ml
+    - streamlit
+    - matplotlib
+    - plotly_express
+    - altair
